@@ -42,7 +42,7 @@ button {
     padding: 60px 0;
 }
 
-/* navigation, top of page */
+/* #region navigation, top of page */
 .header{
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
@@ -123,13 +123,21 @@ button {
     color: #404bbf;
 }
 
-/* main page */
+/* #endregion navigation, top of page */
 
-/* first page */
+/* #region main page */
+
+/* #region first page */
 .first-section {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+            url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+                
 }
 
 .container-first-section {
@@ -160,7 +168,7 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    min-width: 169px
+    min-width: 169px;
 }
 .button:hover {
     background-color: #404BBF;
@@ -169,7 +177,9 @@ button {
     background-color: #404BBF;
 }
 
-/* list page  */
+/* #endregion first page */
+
+/* #region list page  */
 
 .list-section {
     padding: 120px 0;
@@ -208,6 +218,14 @@ button {
     margin-bottom: 8px;
 }
 
+.list-icons-item {
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
 
 .list-text-simple {
     font-size: 16px;
@@ -216,7 +234,9 @@ button {
     margin: 0;
 }
 
-/* Our team page */
+/* #endregion list page  */
+
+/* #region Our team page */
 .team-section {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -267,7 +287,9 @@ button {
     text-align: center;
 }
 
-/* Our Portfolio page */
+/* #endregion Our team page */
+
+/* #region Our Portfolio page */
 .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -322,7 +344,11 @@ button {
     letter-spacing: 0.02em;
 }
 
-/* end of page */
+/* #endregion Our Portfolio page */
+
+/* #endregion main page */
+
+/* #region end of page */
 .footer{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -357,3 +383,5 @@ button {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
+/* #endregion end of page */
