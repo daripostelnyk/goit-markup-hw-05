@@ -449,11 +449,13 @@ button {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+
 }
 
 .footer-block {
-    display: block;
+    max-width: 264px;
+    margin-right: 120px;
 }
 
 .nav-logo-footer {
@@ -475,16 +477,23 @@ button {
 }
 
 .footer-text{
-    max-width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
 
-.social-media-footer {
-    display: block;
-    margin-left: 120px;
+.social-media {
+    margin-right: 120px;
     
+}
+
+.social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-links {
@@ -519,15 +528,6 @@ button {
 
 .icons-footer:focus {
     background-color: #31D0AA;
-}
-
-.footer-title-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
 }
 
 /* #endregion end of page */
